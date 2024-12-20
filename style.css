@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(128, 125, 125);
+  font-family: Roboto;
+}
+
+.section {
+  padding: 3rem 2rem; /* Espaçamento de 3 do lado de cima, e 2 ao lados*/
+  margin: 0 auto; /* Encima e embaixo 0 e aos lados auto, automatico ou seja cetraliza no meio*/
+  max-width: 900px; /* deixa uma espaço de ambos lados*/
+  background-color: rgb(231, 231, 235);
+  height: 600px;
+  margin-top: 30px;
+  border-left: 3px solid rgb(95, 94, 94);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/*BARRA CINZA*/
+.nav_menu {
+  width: 835wh;
+  height: 40px;
+  margin-bottom: 30px;
+  background-color: rgb(95, 94, 94);
+  display: flex;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+/*RAFAEL BONFIM DA SILVA*/
+.title1 {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(95, 94, 94);
+}
+/*MINHA PRIMEIRA PÁGINA HTML*/
+.nav_menu h1 {
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+/*SOBRE MIM*/
+.sobre-mim {
+  margin-top: 1px;
+  font-size: 30px;
+  color: rgb(95, 94, 94);
+}
+
+/*CONTEÚDO P*/
+.content {
+  color: rgb(112, 111, 111);
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+/*DIVISOR LINHA*/
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(95, 94, 94);
+  margin-top: 30px;
+}
+
+/*Meus Hobbies*/
+.title2 {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(95, 94, 94);
+}
+
+ul {
+  list-style-type: none;
+  color: rgb(112, 111, 111);
+  font-size: 17px;
+  margin-top: 20px;
+}
